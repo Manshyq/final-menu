@@ -58,4 +58,19 @@ body{
 	font-weight:bold;
 	color: brown;
 }
+#promote1{
+	animation: promote 5s linear 2s infinite alternate;
+}
+#promote2{
+	animation: promote 5s linear 2s infinite alternate;
+}
+#promote3{
+	animation: promote 5s linear 2s infinite alternate;
+}
+@keyframes promote{
+	0% { color:#8A9A5B; left:0px;  }
+	25%{ color:yellow; left:20px; }
+	75%{ color:orange; left:30px;  }
+	100%{ color:brown; left:40px;  }
 
+}
