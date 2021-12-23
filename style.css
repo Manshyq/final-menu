@@ -41,13 +41,13 @@ body{
 }
 .dish__header {
 	font-size: 20px;
-	font-family: serif;
+	font-family: Didot;
 	font-weight:bold;
 	color: #8A9A5B
 }
 .dish__info {
 	font-size: 15px;
-	font-family: serif;
+	font-family: Brush Script;
 	font-weight:100;
 }
 .dish__price {
