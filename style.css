@@ -2,7 +2,7 @@ header{
 	position: relative;
 	left:40%;
 	font-size: 30px;
-	font-family: serif;
+	font-family: Copperplate;
 	font-weight:bold;
 	color: #8A9A5B
 }
@@ -31,7 +31,6 @@ body{
 	position: relative;
 	left:0;
 }
-
 
 .dish {
 	position: relative;
@@ -73,4 +72,41 @@ body{
 	75%{ color:orange; left:30px;  }
 	100%{ color:brown; left:40px;  }
 
+}
+
+td:hover{
+	color:red;
+	cursor: pointer;
+}
+.footer{
+	background-color:#4C5D67;
+	height:350px; 
+	color:white;
+	position: relative;
+	top: 60px;
+}
+.social-media{
+	margin:20px;
+	position: relative;
+	left:30%;
+	top:5%;
+}
+#footer{
+	position: relative;
+	left:12%;
+}
+td{
+	padding-right: 50px;
+}
+.footer-category{
+	font-size: 1.25rem;
+}
+.white-hr{
+	color:white;
+	width:900px;
+}
+.footer__ending{
+	text-align: center;
+	position: relative;
+	top:5%;
 }
